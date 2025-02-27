@@ -1,0 +1,97 @@
+body{
+    background-color: azure;
+    margin: 0 4px;
+}
+.main-container{
+    background-color: blueviolet;
+    margin: 10px 60px;
+    padding: 0;
+}
+.featureContainer{ }
+
+ul{
+    
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+.contentContainer{
+    align-content: center;
+    justify-content: center;
+    padding: 84px 320px;
+}
+
+li{
+    background-color: rgba(252, 252, 252, 0.236);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    align-content: center;
+    border: 0px solid rgba(12, 1, 26, 0.878);
+    border-radius: 0px;
+    margin: 0;
+}
+
+#ig, #tktk, #fb, #yt{
+    border: 1px solid rgba(252, 252, 252, 0.236);
+    padding: 14px 21px;
+}
+
+#ig{
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
+}
+#yt{
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
+}
+
+#search{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(63, 63, 63, 0.81);
+    width: 320px;
+    padding: 12px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(238, 250, 240);
+    background-color: rgba(14, 222, 14, 0.782);
+    padding: 12px 26px;
+    border: 0 solid rgb(78, 248, 120);
+    border-radius: 6px;
+}
+.search-container{
+    padding-top: 0px;
+    margin-top: 30px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    word-wrap: normal;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 8px 0;
+}
+
+p{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin: 10px 0;
+}
+i{
+    margin-right: 5px;
+    color: #fff;
+
+}
+    
